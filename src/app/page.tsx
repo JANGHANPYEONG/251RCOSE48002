@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 export default function LandingPage() {
   const router = useRouter();
   const metrics = {
-    apr: "4.5%",
+    apr: "6%",
     totalStaked: "$15M+",
     activeUsers: "3K+",
   };
@@ -55,7 +55,7 @@ export default function LandingPage() {
               </h1>
               <div className="mt-4 flex items-center gap-2">
                 <p className="text-xl text-gray-700">
-                  연 4.5% 예상 수익, 지금 바로 예치하세요
+                  연 6% 예상 수익, 지금 바로 예치하세요
                 </p>
               </div>
 

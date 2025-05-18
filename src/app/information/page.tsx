@@ -126,7 +126,7 @@ export default function InformationPage() {
               <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-green-600 to-green-500 bg-clip-text text-transparent">
                 이메일 하나로 안전 예치
                 <br />
-                <span className="text-5xl">연 4.5%</span>
+                <span className="text-5xl">연 6%</span>
                 <span className="text-xl align-top">*</span>
               </h1>
               <p className="text-gray-600">
