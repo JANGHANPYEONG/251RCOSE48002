@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 249, 250, 251;
+  --background-end-rgb: 249, 250, 251;
+  --primary-green: #16a34a;
+  --primary-green-light: #dcfce7;
+  --primary-green-dark: #15803d;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  font-family: "Poppins", sans-serif;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+  }
+
+  .btn-secondary {
+    @apply bg-green-50 text-green-700 hover:bg-green-100 focus:ring-green-500;
+  }
+
+  .card {
+    @apply bg-white rounded-lg border-2 border-green-200 shadow-sm;
+  }
+
+  .input-field {
+    @apply rounded-lg border-2 border-green-200 focus:border-green-500 focus:ring-green-500;
+  }
+}
